@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  text-decoration: none;
+}
+
+.nav{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7em;
+  }
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li{
+  float:left
+}
+
+.unans select{
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 1.7em;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navHeader{
+    margin-top: -1.3em;
+    height:3em;
+    }
+
+  .loginListUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3em
+  }
+
+  .bg-grey{
+    background-color: rgb(153 153 153 / 34%)
+   }
+
+   @media (max-width: 768px) {
+    .card{
+      width:80%;
+      margin-right:auto;
+      margin-left: auto;
+    }
+    }
+    @media (min-width: 769px) {
+      .card{
+        width:55%;
+        margin-right:auto;
+        margin-left: auto;
+      }
+      }
+
